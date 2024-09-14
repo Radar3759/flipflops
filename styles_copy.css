@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* OMELETTE*/
+html {
+    background-image: url("images/benjamin-voros-AD6rn3vqG7o-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    }
+
+.omelette {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.charlesOmelette {
+    color: rgb(225, 173, 1); 
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1em;
+    padding: 25px;
+
+}
+
+.omelette-ingredients {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    padding-top: 25px;
+
+}
+
+.h3-ingredients {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    margin-left: 25px;
+    
+}
+
+.recipe li{
+    list-style-type: "- ";
+    line-height: 1.5em;
+    margin-left: 25px;
+}
+
+.details li {
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.omelette-span {
+    margin-left: 25px;
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    max-width: 60%;
+    background: rgb(254, 251, 234);
+    border-radius: 30px;
+    margin: 0px auto;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.recipe-container .notes{
+    margin-bottom: 10px; 
+}
+
+.recipe-container .video {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.recipe-details {
+    /* border: 3px solid purple; */
+    width: 90%;
+    height: 90%;
+
+}
+
+.omitb-nav-list {
+    display: inline-block;
+    padding-bottom: 10px;
+
+}
+
+.omelette-nav a {
+    color: rgb(225, 173, 1);
+    text-decoration: none;
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.omelette-nav a:hover {
+    color: rgb(39, 121, 114);
+}
+
